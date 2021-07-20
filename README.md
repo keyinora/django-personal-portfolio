@@ -56,4 +56,7 @@ This file will outline all pip packages you require to run your project.
 Please note that if you did not run a virutal environment, it will show all packages on your system.
 ```bash
 pip freeze > requirements.txt
+
+#on Production server, run below command to install packages on your production server
+pip install -r requirements.txt
 ```
